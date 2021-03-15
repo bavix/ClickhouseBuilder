@@ -1,5 +1,5 @@
 {
-  "name": "the-tinderbox/clickhouse-builder",
+  "name": "bavix/clickhouse-builder",
   "description": "Clickhouse sql query builder",
   "authors": [
     {
@@ -27,8 +27,11 @@
       "src/functions.php"
     ]
   },
+  "replace": {
+    "the-tinderbox/clickhouse-builder": "4.*"
+  },
   "require": {
-    "php": "~7.1",
+    "php": "^7.1|^8.0",
     "myclabs/php-enum": "^1.5",
     "the-tinderbox/clickhouse-php-client": "^3.0"
   },
