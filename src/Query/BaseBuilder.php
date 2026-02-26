@@ -495,9 +495,9 @@ abstract class BaseBuilder
      */
     public function join(
         $table,
-        string $strict = null,
-        string $type = null,
-        array $using = null,
+        ?string $strict = null,
+        ?string $type = null,
+        ?array $using = null,
         bool $global = false,
         ?string $alias = null
     ) {
